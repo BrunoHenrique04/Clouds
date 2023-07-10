@@ -1,7 +1,6 @@
 using Pada1.BBCore;
 using Pada1.BBCore.Framework;
 using Pada1.BBCore.Tasks;
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,7 +15,10 @@ public class SeguirPlayer : BasePrimitiveAction
     [InParam("Entidade")]
     public GameObject Entidade;
 
+    [InParam("Velocidade")]
     public float velocidade = 5;
+
+
     public string playerTag = "Player"; // tornar privada após testes
     private UnityEngine.Transform playerTransform;
     private UnityEngine.Transform entidadeTransform;
@@ -30,7 +32,7 @@ public class SeguirPlayer : BasePrimitiveAction
     }
     public override TaskStatus OnUpdate()
     {
-
+        
         entidadeTransform.position = Vector2.MoveTowards(entidadeTransform.position, playerTransform.position, velocidade * Time.deltaTime);
         Debug.Log("Seguindo");
 

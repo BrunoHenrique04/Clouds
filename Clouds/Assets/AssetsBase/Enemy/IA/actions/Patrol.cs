@@ -11,12 +11,12 @@ public class Patrol : BasePrimitiveAction
     public override void OnStart()
     {
         base.OnStart();
-       // Debug.Log("Patrulhando");
+        Debug.Log("Patrulhando");
     }
 
     public override TaskStatus OnUpdate()
     {
-        //Debug.Log("Patrulhando");
+        Debug.Log("Patrulhando");
         return TaskStatus.RUNNING;
     }
 }
