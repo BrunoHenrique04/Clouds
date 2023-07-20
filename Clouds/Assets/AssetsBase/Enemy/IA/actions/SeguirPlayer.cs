@@ -32,7 +32,10 @@ public class SeguirPlayer : BasePrimitiveAction
     }
     public override TaskStatus OnUpdate()
     {
-        
+        if( playerTag == null)
+        {
+            return TaskStatus.ABORTED; 
+        }
         entidadeTransform.position = Vector2.MoveTowards(entidadeTransform.position, playerTransform.position, velocidade * Time.deltaTime);
         Debug.Log("Seguindo");
 
