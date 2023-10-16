@@ -1,3 +1,4 @@
 # Clouds
-O projeto "Clouds" é um projeto de um jogo feito na unity 2D, que está sendo daesenvolvido por apenas 2 pessoas, a rea de programação está sendo responsavel pelo Bruno Henrique autor desta conta Git, já parte artistica está sendo feita pelo Eduardo Vequetini @key.redas,.
-Este projeto atualmente está evoluindo de forma mais devagar, pois inicialmente está sendo feito com o intuito apenas de aprendizado e evolução de nossas habilidades, ao acompanhar o versionamento dele, será possivel indentificar nossa melhora em desenvolvimento.
+O projeto "Clouds" é um jogo desenvolvido na Unity 2D por apenas duas pessoas. A área de programação está sob a responsabilidade de Bruno Henrique, autor desta conta Git, enquanto a parte artística está sendo cuidada por Eduardo Vequetini @key.redas.
+
+Atualmente, o projeto está evoluindo mais lentamente, pois inicialmente foi concebido com o propósito de aprendizado e aprimoramento de nossas habilidades. Acompanhando o controle de versão, será possível identificar nossa melhora no desenvolvimento.
